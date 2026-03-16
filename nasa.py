@@ -3,7 +3,7 @@ from flask import Flask, request, render_template
 
 app = Flask(__name__)
 
-API_key = "eWS8A6N2HR9fw1g14Faxj3MToFvOuRCUQ9IvCzPu"
+API_key = #enter your own API key ---> Get it at https://api.nasa.gov/
 base_url = "https://api.nasa.gov/neo/rest/v1/feed"
 
 @app.route("/asteroids", methods=["GET", "POST"])
